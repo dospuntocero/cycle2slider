@@ -1,0 +1,36 @@
+.border-radius(@radius) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+          border-radius: @radius;
+}
+.box-shadow(@shadow) {
+  -webkit-box-shadow: @shadow;
+     -moz-box-shadow: @shadow;
+          box-shadow: @shadow;
+}
+
+#slideshow {
+	list-style: none;
+	margin: 0;
+
+	.cycle-slide{
+		position: relative;
+		
+		img{
+			.border-radius(5px);
+			.box-shadow(inset 0 1px 1px rgba(0,0,0,.05));
+		}
+	}
+	.caption{
+		width: inherit;
+		position: absolute;
+		bottom:0;
+		left:0;
+		padding: 20px;
+		background-color: rgba(0,0,0,.5);
+		color: #fff;
+		text-transform: uppercase;
+		text-shadow: 1px 1px 1px #222;
+	}
+  
+}

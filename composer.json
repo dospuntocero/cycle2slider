@@ -1,8 +1,20 @@
 {
 	"name": "dospuntocero/cycle2slider",
 	"description": "new slider for responsive themes using jquery cycle 2",
+    "type": "silverstripe-module",
+    "keywords": ["silverstripe", "slideshow","showcase", "main gallery","images"],
+    "license": "BSD-3-Clause",
+    "authors": [
+    {
+        "name": "Dospuntocero",
+        "email": "fa@dospuntocero.cl"
+    }
+    ],
 	"require": {
-		"unclecheese/betterbuttons": "dev-master"
-	},
-	"minimum-stability": "dev"
+		"unclecheese/betterbuttons": "dev-master",
+        "silverstripe/framework": "3.*",
+        "silverstripe/cms": "3.*",
+        "undefinedoffset/sortablegridfield": "dev-master",
+		"unclecheese/display-logic":"dev-master"
+	}
 }
