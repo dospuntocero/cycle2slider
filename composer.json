@@ -1,0 +1,8 @@
+{
+	"name": "cycle2slider",
+	"description": "new slider for responsive themes using jquery cycle 2",
+	"require": {
+		"unclecheese/betterbuttons": "dev-master"
+	},
+	"minimum-stability": "dev"
+}
