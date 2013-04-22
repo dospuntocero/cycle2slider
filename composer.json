@@ -12,9 +12,9 @@
     ],
 	"require": {
 		"unclecheese/betterbuttons": "dev-master",
-        "silverstripe/framework": "3.*",
-        "silverstripe/cms": "3.*",
-        "undefinedoffset/sortablegridfield": "dev-master",
-		"unclecheese/display-logic":"dev-master"
+        	"silverstripe/framework": "3.*",
+        	"silverstripe/cms": "3.*",
+        	"undefinedoffset/sortablegridfield": "dev-master",
+		"silverstripe/display-logic": "dev-master"
 	}
 }
